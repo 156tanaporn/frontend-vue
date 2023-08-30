@@ -1,0 +1,43 @@
+*** การโหลด node v12.18.0 ***
+ค้นหาคำว่า node v12.18.0
+โหลด
+
+เช็คใน cmd 
+node --version
+
+*** การเปลี่ยนเวอร์ชั่น node ***
+
+ดาวน์โหลด nvm
+กดที่ nvm-windows repository Readme
+download now
+nvm setup.exe
+
+
+node --version
+nvm version
+nvm install v12.18.0
+nvm use 12.18.0
+nvm --version
+
+*** ติดตั้ง ***
+npm install -g @vue/cli
+vue --version
+เข้าไดรฟ์ที่ต้องกรเก็บโฟลเดอร์โปรเจค
+vue create ชื่อโปรเจค
+รอ
+cd ชื่อโฟลเดอร์โปรเจค
+vue add vuetify
+
+***หาก run error***
+ใช้คำสั่ง 
+npm cache clean --force
+
+
+เลือก Vuetify 2 - Vue CLI(recommended)
+
+code . เพื่อเปิด vs code
+new terminal
+ใช้คำสั่ง
+npm run serve
+กดปุ่ม control ค้างไว้ แล้วกด http://lacalhost:8000/ แล้วจะขึ้นหน้าเว็บ
+
