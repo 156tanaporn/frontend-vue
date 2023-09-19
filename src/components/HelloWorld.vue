@@ -95,7 +95,7 @@
 export default {
   name: 'HelloWorld',
   props: {
-    message : String
+    message: String
   },
 
   data: () => ({

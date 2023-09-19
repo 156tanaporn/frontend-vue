@@ -56,7 +56,7 @@ export default {
     ]
   }),
   methods: {
-    Login() {
+    Login () {
       if (this.$refs.loginForm.validate(true)) {
         localStorage.setItem('username', this.name)
         this.$EventBus.$emit('getUsername')
