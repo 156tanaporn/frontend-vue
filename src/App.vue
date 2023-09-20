@@ -58,12 +58,12 @@ export default {
 
   methods: {
     goToLogin () {
-      this.$router.push({ push: '/login' }).catch(() => {})
-      // this.$router.push('/login')
+      // this.$router.push({ push: '/login' }).catch(() => {})
+      this.$router.push('/login')
     },
     goToManage () {
-      this.$router.push({ push: '/manageTable' }).catch(() => {})
-      // this.$router.push('/manageTable')
+      // this.$router.push({ push: '/manageTable' }).catch(() => {})
+      this.$router.push('/manageTable')
     }
   }
 }
