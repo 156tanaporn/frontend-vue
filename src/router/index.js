@@ -27,7 +27,13 @@ const routes = [
     path: '/manageTable',
     name: 'manageTable',
     component: () => import('../views/Tableview.vue')
+  },
+  {
+    path: '/connectBackend',
+    name: 'connectBackend',
+    component: () => import('../views/ConnectBackend.vue')
   }
+
 ]
 
 const router = new VueRouter({

@@ -39,6 +39,13 @@
       >
         หน้าจัดการข้อมูล
       </v-btn>
+
+      <v-btn
+        text
+        @click="goToConnect()"
+      >
+        CONNECT BACKEND
+      </v-btn>
     </v-app-bar>
 
     <v-main>
@@ -64,6 +71,9 @@ export default {
     goToManage () {
       // this.$router.push({ push: '/manageTable' }).catch(() => {})
       this.$router.push('/manageTable')
+    },
+    goToConnect () {
+      this.$router.push('/connectBackend')
     }
   }
 }
